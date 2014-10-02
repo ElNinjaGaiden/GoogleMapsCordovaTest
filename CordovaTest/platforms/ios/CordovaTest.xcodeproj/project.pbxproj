@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		03674E89C83147ECBED6F2DE /* MyPluginLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9C0F1FDCF457D94D7BCD4 /* MyPluginLayer.m */; };
 		05E0186584F240DCB8FE80F5 /* External.m in Sources */ = {isa = PBXBuildFile; fileRef = F76536C4A9944231A8AAD1EE /* External.m */; };

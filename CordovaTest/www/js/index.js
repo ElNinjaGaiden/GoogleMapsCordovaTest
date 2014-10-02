@@ -23,10 +23,9 @@ var map, center, app = {
         map = plugin.google.maps.Map.getMap(mapCanvas, {
             'backgroundColor': 'white',
             'mapType': plugin.google.maps.MapTypeId.SATELLITE,
-            //'center': center,
             'controls': {
                 'compass': true,
-                'myLocationButton': true,
+                'myLocationButton': false,
                 'indoorPicker': true,
                 'zoom': true
             },

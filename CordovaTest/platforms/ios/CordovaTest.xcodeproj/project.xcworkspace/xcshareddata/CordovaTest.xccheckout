@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>463E465C-800B-4A72-8738-FBBE4D1CBFDC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CordovaTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>743B6D9F-5C26-45B4-9E1C-B4E78F9EAE98</key>
+		<string>https://github.com/ElNinjaGaiden/GoogleMapsCordovaTest.git</string>
+		<key>AEE34245-45CF-47E9-B27C-CAF34ECB474D</key>
+		<string>https://github.com/sqlcipher/openssl-xcode.git</string>
+		<key>CFF35D1A-6300-4F5C-A733-BCB3129BB95B</key>
+		<string>https://github.com/sqlcipher/sqlcipher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CordovaTest/platforms/ios/CordovaTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>743B6D9F-5C26-45B4-9E1C-B4E78F9EAE98</key>
+		<string>../../../../..</string>
+		<key>AEE34245-45CF-47E9-B27C-CAF34ECB474D</key>
+		<string>../../openssl-xcode</string>
+		<key>CFF35D1A-6300-4F5C-A733-BCB3129BB95B</key>
+		<string>../../sqlcipher</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ElNinjaGaiden/GoogleMapsCordovaTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>743B6D9F-5C26-45B4-9E1C-B4E78F9EAE98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>743B6D9F-5C26-45B4-9E1C-B4E78F9EAE98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoogleMapsCordovaTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AEE34245-45CF-47E9-B27C-CAF34ECB474D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openssl-xcode</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFF35D1A-6300-4F5C-A733-BCB3129BB95B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sqlcipher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
