@@ -82,7 +82,7 @@
     <key>Google Maps API Key</key>
     <string>AIzaSyB1l0IDnDEhfuTkz7Sev8iKNljLYC_6WXQ</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Show your location on the map</string>
+    <string></string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>Trace your location on the map</string>
   </dict>
