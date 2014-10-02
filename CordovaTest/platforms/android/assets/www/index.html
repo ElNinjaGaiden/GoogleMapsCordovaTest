@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            var map, center;
+            document.addEventListener("deviceready", function() {
+                                      var button = document.getElementById("button");
+                                      button.addEventListener("click", onBtnClicked, false);
+                                      
+                                      center = new plugin.google.maps.LatLng(37.422858, -122.085065);
+                                      var div = document.getElementById("map_canvas");
+                                      map = plugin.google.maps.Map.getMap(div, {
+                                                                          'backgroundColor': 'white',
+                                                                          'mapType': plugin.google.maps.MapTypeId.SATELLITE,
+                                                                          'center': center,
+                                                                          'controls': {
+                                                                          'compass': true,
+                                                                          'myLocationButton': true,
+                                                                          'indoorPicker': true,
+                                                                          'zoom': true
+                                                                          },
+                                                                          'gestures': {
+                                                                          'scroll': true,
+                                                                          'tilt': true,
+                                                                          'rotate': true
+                                                                          },
+                                                                          'camera': {
+                                                                             'latLng': center,
+                                                                             'zoom': 15
+                                                                          }
+                                                                          });
+                                      
+                                      
+                                      map.addEventListener(plugin.google.maps.event.MAP_READY, function() {
+                                         animate();
+                                      });
+                                      
+                                      map.addEventListener(plugin.google.maps.event.MAP_LOADED, function() {
+                                                           animate();
+                                                           });
+                                      
+                                      }, false);
+                                      function onBtnClicked() {
+                                          map.showDialog();
+                                      }
+        
+        var animate = function() {
+            map.animateCamera({
+                              'target': center,
+                              'tilt': 60,
+                              'zoom': 18,
+                              'bearing': 140,
+                              'duration': 5000
+                              });
+        };
+        
+        </script>
+    </head>
+    <body>
+        <h3>PhoneGap-GoogleMaps-Plugin</h3>
+        <div style="width:100%;height:400px" id="map_canvas"></div>
+        <button id="button">Full Screen</button>
+    </body>
+</html>
